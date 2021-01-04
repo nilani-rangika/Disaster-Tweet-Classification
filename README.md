@@ -13,7 +13,7 @@ This project aims at classifying disaster tweets in to two categories, namely, R
 | [CrisisNLP-Resource#5](https://crisisnlp.qcri.org/crisismmd)  | Crisismmd: Multimodal twitter datasets from natural disasters  | 
 | [CrisisNLP-Resource#10](https://crisisnlp.qcri.org/)  | Graph based semi-supervised learning with convolution neural networks to classify crisis related tweets  | 
 | [Kaggle Real or Not? NLP with Disaster Tweets](https://www.kaggle.com/c/nlp-getting-started/overview)  | - | 
-| Appen Disaster Response Messages  | -  | 
-| Kaggle Disasters on social media | -  | 
+| [Appen Disaster Response Messages](https://appen.com/datasets/combined-disaster-response-data/)  | -  | 
+| [Kaggle Disasters on social media](https://www.kaggle.com/jannesklaas/disasters-on-social-media)  | -  | 
 
 
