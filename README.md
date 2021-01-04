@@ -15,3 +15,6 @@ This project aims at classifying disaster tweets in to two categories, namely, R
 | Kaggle Real or Not? NLP with Disaster Tweets  | Content Cell  | Content Cell  |
 | Appen Disaster Response Messages  | Content Cell  | Content Cell  |
 | Kaggle Disasters on social media | Content Cell  | Content Cell  |
+
+
+[I'm an inline-style link](https://www.google.com)
