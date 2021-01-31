@@ -41,5 +41,5 @@ We evaluate the performance of twelve Machine Learning models and two Deep Learn
 
 ## Adopted CNN and Bi-LSTM architectures
 
-![Image of CNN and LSTM](https://github.com/nilani-rangika/Disaster-Tweet-Classification/DL2.png)
+![Image of CNN and LSTM](https://github.com/nilani-rangika/Disaster-Tweet-Classification/blob/main/DL2.png)
 
