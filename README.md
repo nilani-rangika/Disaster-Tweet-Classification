@@ -1,6 +1,6 @@
 # Disaster-Tweet-Classification
 
-This project aims at classifying disaster tweets in to two categories, namely, Related and Not-Related.
+With the proliferation of internet-based communication technologies, people are increasingly using social media during disasters. Hence, disaster tweet classification plays a significant role to support situation awareness and disaster response broadly. Therefore, this project aims at classifying disaster tweets in to two categories, namely, Related and Not-Related.
 
 ## The dataset
 
@@ -16,4 +16,25 @@ This project aims at classifying disaster tweets in to two categories, namely, R
 | [Appen Disaster Response Messages](https://appen.com/datasets/combined-disaster-response-data/)  | -  | 
 | [Kaggle Disasters on social media](https://www.kaggle.com/jannesklaas/disasters-on-social-media)  | -  | 
 
+## The models
 
+We evaluate the performance of twelve Machine Learning models and two Deep Learning models using three different word embeddings for the classification task.
+
+1.	Linear SVM
+2.	RidgeClassifier
+3.	Logistic Regression
+4.	Decision Tree
+5.	k-Nearest Neighbors
+6.	Gradient Boosting Classifier
+7.	Random Forest
+8.	AdaBoost
+9.	Naïve Bayes
+10.	Perceptron
+11.	xgboost
+12.	catboost
+13.	LSTM-fasttext
+14.	CNN-fasttext
+15.	LSTM-GloVe
+16.	CNN-Glove
+17.	LSTM-W2V
+18.	CNN-W2V
