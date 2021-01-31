@@ -38,3 +38,8 @@ We evaluate the performance of twelve Machine Learning models and two Deep Learn
 16.	CNN-Glove
 17.	LSTM-W2V
 18.	CNN-W2V
+
+## Adopted CNN and Bi-LSTM architectures
+
+![Image of CNN and LSTM](https://github.com/nilani-rangika/Disaster-Tweet-Classification/DL2.png)
+
