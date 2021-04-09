@@ -44,7 +44,7 @@ We evaluate the performance of twelve Machine Learning models and two Deep Learn
 ![Image of CNN and LSTM](https://github.com/nilani-rangika/Disaster-Tweet-Classification/blob/main/DL2.png)
 
 ## Using Weights
-```
+```python
 import pickle
 loaded_vectorizer = pickle.load(open('earthquake/vectorizer_all.sav', 'rb'))
 loaded_model_Linear_SVM = pickle.load(open('earthquake/classifier_svm_all.sav', 'rb'))
