@@ -45,6 +45,7 @@ We evaluate the performance of twelve Machine Learning models and two Deep Learn
 
 ## Using Weights
 ```
+import pickle
 loaded_vectorizer = pickle.load(open('earthquake/vectorizer_all.sav', 'rb'))
 loaded_model_Linear_SVM = pickle.load(open('earthquake/classifier_svm_all.sav', 'rb'))
 loaded_model_RidgeClassifier = pickle.load(open('earthquake/classifier_RidgeClassifier_all.sav', 'rb'))
