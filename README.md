@@ -43,3 +43,18 @@ We evaluate the performance of twelve Machine Learning models and two Deep Learn
 
 ![Image of CNN and LSTM](https://github.com/nilani-rangika/Disaster-Tweet-Classification/blob/main/DL2.png)
 
+## Using Weights
+`
+loaded_vectorizer = pickle.load(open('earthquake/vectorizer_all.sav', 'rb'))
+loaded_model_Linear_SVM = pickle.load(open('earthquake/classifier_svm_all.sav', 'rb'))
+loaded_model_RidgeClassifier = pickle.load(open('earthquake/classifier_RidgeClassifier_all.sav', 'rb'))
+loaded_model_Logistic_Regression = pickle.load(open('earthquake/classifier_LRegression_all.sav', 'rb'))
+loaded_model_Decision_Tree = pickle.load(open('earthquake/classifier_DTClassifier_all.sav', 'rb'))
+loaded_model_KNN = pickle.load(open('earthquake/classifier_knn_all.sav', 'rb'))
+loaded_model_GradientBoostingClassifierM = pickle.load(open('earthquake/classifier_GradientBoostingClassifier_all.sav', 'rb'))
+loaded_model_Random_Forest = pickle.load(open('earthquake/classifier_RandomForestClassifier_all.sav', 'rb'))
+loaded_model_AdaBoost = pickle.load(open('earthquake/classifier_AdaBoost_all.sav', 'rb'))
+loaded_model_MNB = pickle.load(open('earthquake/classifier_MNB_all.sav', 'rb'))
+loaded_model_Perceptron = pickle.load(open('earthquake/classifier_ANN_all.sav', 'rb'))
+loaded_model_xgboost = pickle.load(open('earthquake/classifier_xgboost_all.sav', 'rb'))
+loaded_model_catboost = pickle.load(open('earthquake/classifier_catboost_all.sav', 'rb'))`
