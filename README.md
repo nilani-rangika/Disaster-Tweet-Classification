@@ -49,7 +49,17 @@ We evaluate the performance of twelve Machine Learning models and two Deep Learn
 def isEnglish(s):
     return s.isascii()
 ```
-    
+
+### Remove ReTweets
+```python
+df = df[~df.tweet_text.str.startswith('RT')]
+```
+
+### Remove Duplicate Tweets
+```python
+df = df.drop_duplicates(subset=['tweet_text'])
+```
+
 ## Using Weights
 ```python
 import pickle
