@@ -43,6 +43,13 @@ We evaluate the performance of twelve Machine Learning models and two Deep Learn
 
 ![Image of CNN and LSTM](https://github.com/nilani-rangika/Disaster-Tweet-Classification/blob/main/DL2.png)
 
+## Noise Reduction and Preprocessing Tweets
+### Remove Non-English Tweets
+```python
+def isEnglish(s):
+    return s.isascii()
+```
+    
 ## Using Weights
 ```python
 import pickle
