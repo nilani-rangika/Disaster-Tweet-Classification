@@ -60,6 +60,19 @@ df = df[~df.tweet_text.str.startswith('RT')]
 df = df.drop_duplicates(subset=['tweet_text'])
 ```
 
+### Preprocessing
+```python
+def remove_pattern(input_txt, pattern):
+    r = re.findall(pattern, input_txt)
+    for i in r:
+        input_txt = re.sub(i, '', input_txt)
+        
+    return input_txt
+
+df['cleaned'] = np.vectorize(remove_pattern)(df['tweet_text'], "@[\w]*")#remove @user mensions
+df['cleaned'] = df['cleaned'].str.replace("http\S+|www.\S+", " ")#remove http address
+```
+
 ## Using Weights
 ```python
 import pickle
