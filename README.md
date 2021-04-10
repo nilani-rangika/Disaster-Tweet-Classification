@@ -69,8 +69,14 @@ def remove_pattern(input_txt, pattern):
         
     return input_txt
 
-df['cleaned'] = np.vectorize(remove_pattern)(df['tweet_text'], "@[\w]*")#remove @user mensions
-df['cleaned'] = df['cleaned'].str.replace("http\S+|www.\S+", " ")#remove http address
+df['cleaned'] = np.vectorize(remove_pattern)(df['tweet_text'], "@[\w]*") #remove @user mensions
+df['cleaned'] = df['cleaned'].str.replace("http\S+|www.\S+", " ") #remove http address
+
+from spacy.lang.en import English
+nlp = English()
+df['cleaned'] = df['cleaned'].apply(lambda row: " ".join([w.lemma_ if w.lemma_ !='-PRON-' else w.lower_ for w in nlp(row)])) #lematization
+df['cleaned'] = df['cleaned'].apply(lambda x: ' '.join([w for w in x.split() if len(w)>3])) #remove words less than 3 characters 
+df = df[~df.cleaned.str.count('\s+').lt(3)] #remove shorter tweets having less than 3 words
 ```
 
 ## Using Weights
