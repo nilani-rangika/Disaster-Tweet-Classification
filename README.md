@@ -2,6 +2,9 @@
 
 With the proliferation of internet-based communication technologies, people are increasingly using social media during disasters. Hence, disaster tweet classification plays a significant role to support situation awareness and disaster response broadly. Therefore, this project aims at classifying disaster tweets in to two categories, namely, Related and Not-Related.
 
+
+![Disaster Tweet Classification](https://github.com/nilani-rangika/Disaster-Tweet-Classification/blob/main/Tweet_classification.png)
+
 ## The dataset
 
 | Description   | Article       | 
